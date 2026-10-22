@@ -1,0 +1,45 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* main container */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 20px;
+}
+
+h2 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+/* icons container */
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+/* icon sizes and hover effect */
+.social-links img {
+    width: 32px;
+    height: 32px;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+/* slightly making icons bigger on hover */
+.social-links a:hover img {
+    transform: scale(1.15);
+    opacity: 0.8;
+}
